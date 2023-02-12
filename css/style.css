@@ -61,7 +61,7 @@ section {
 }
 
 #home {
-   background: linear-gradient(rgba(73, 33, 167, 0.8), rgba(73, 33, 167, 0.8)), url(../img/hero_img.jpg);
+   background: linear-gradient(rgba(73, 33, 167, 0.8), rgba(73, 33, 167, 0.8)), url(../img/landingHeader.png);
    min-height: 100vh;
    background-size: cover;
    background-position: center;
@@ -77,6 +77,16 @@ section {
 #home p {
    max-width: 550px;
    margin: 18px auto;
+}
+
+#imgHeadTwo {
+   background: linear-gradient(rgba(73, 33, 167, 0.8), rgba(73, 33, 167, 0.8)), url(../img/hero_img.jpg);
+   min-height: 100vh;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   display: flex;
+   align-items: center;
 }
 
 .btn {
